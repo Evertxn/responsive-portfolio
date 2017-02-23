@@ -1,0 +1,114 @@
+/* STUDENTS: Take note of the differences 
+   in the file directories of PreDeploy and ReadyToDeploy. */
+/* 
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up. 
+Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
+
+*/
+
+body {
+  
+  /* Positioning */
+  margin: 0;
+
+  /* Box-model */
+  padding: 0;
+
+  /* Typography */
+  font-size: 18px;
+  line-height: 150%;
+  color: #333333;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  /* Visual */
+  background-image:url("../images/wallpaper.png");
+
+}
+
+header { 
+  background: #ffffff; 
+  border-color: #dddddd;
+
+
+}
+
+.head1 {
+  color: white;
+  margin-bottom: 20px;
+  margin: 0;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  
+  /* Visual */
+  background-color: #4aaaa5;
+  
+}
+
+h2 { 
+  font-size: 24px; 
+
+}
+
+a { 
+  color: #d21034; 
+
+}
+
+nav ul {
+  margin: 0;
+  float: right;
+}
+
+nav ul li {
+  padding: 5px;
+  color: white;
+  display: inline;
+  list-style-type: none;
+
+
+}
+
+
+.container {
+
+  /* Positioning */
+  margin: 0 auto;
+  /* Box-model */
+  width: 1024px;
+  margin-top: 7%;
+  margin-left: 24%;
+  
+}
+
+#main-bio,
+
+#contact-info,
+
+#bio-image { 
+  float: left; 
+
+}
+
+#main-bio { 
+  width: 70%;
+  background-color: #ffffff;
+
+}
+
+#contact-info { 
+  width: 30%; 
+}
+
+#bio-image {
+
+  /* Positioning */
+  margin-right: 10px;
+  /* Box-model */
+  width: 200px;
+  height: 200px;
+  
+} 
